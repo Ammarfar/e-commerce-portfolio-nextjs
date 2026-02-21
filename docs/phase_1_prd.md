@@ -10,10 +10,13 @@ A backend portfolio project that simulates modern e-commerce platform, built pha
 AI assistant that can answer product questions and generate recommendations using real product data.
 
 * **High-traffic readiness via caching**:
-Implements Redis caching and pagination strategies to handle million of products, demonstrating performance awareness and real-world read optimization patterns.
+Implements caching and pagination strategies to handle million of products, demonstrating performance awareness and real-world read optimization patterns.
 
 * **Background large data handling**:
 Features resumable CSV batch import to demonstrate concurrency, job lifecycle management, and working with large-scale data safely.
+
+* **Observability & operational**:
+Using OpenTelemetry to demonstrate how app are monitored and operated in production-like environments.
 
 ---
 
@@ -29,7 +32,7 @@ Features resumable CSV batch import to demonstrate concurrency, job lifecycle ma
 ### 2) Product Catalog Service
 
 * Create, update, delete products (Admin only)
-* Product listing with cursor-based pagination (Lazy loading)
+* Product listing with lazy loading pagination
 * Product detail
 * Search by name
 * Filter by price range
