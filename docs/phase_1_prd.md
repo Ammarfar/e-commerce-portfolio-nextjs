@@ -1,8 +1,8 @@
-# PRD — Portfolio Microservice Platform (Phase 1)
+# PRD — Portfolio (Phase 1)
 
-## AI Assisted Product Catalog Service
+## AI Assisted Product Catalog
 
-A backend portfolio project that simulates modern e-commerce platform, built phase by phase.
+A portfolio project that simulates modern e-commerce platform, built phase by phase.
 
 **Phase 1 highlights:**
 
