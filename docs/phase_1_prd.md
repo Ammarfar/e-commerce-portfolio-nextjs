@@ -31,8 +31,8 @@ Features resumable CSV batch import to demonstrate concurrency, job lifecycle ma
 * Create, update, delete products (Admin only)
 * Product listing with cursor-based pagination (Lazy loading)
 * Product detail
-* Search by name or category
-* Filter by category & price range
+* Search by name
+* Filter by price range
 
 ### 3) Shopping Cart
 
